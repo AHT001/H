@@ -17,8 +17,8 @@ except ModuleNotFoundError:
 	os.system('pip install requests bs4 futures==2 > /dev/null')
 	os.system('python trt.py')
 	
-print('[•] Join Our Group')
-os.system('xdg-open https://facebook.com/groups/1267077887495034/')
+print('[•] follow my facebook')
+os.system('xdg-open  https://www.facebook.com/sayedjamal.afg  ')
 
 try:
 	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
@@ -215,10 +215,10 @@ tokenku=[]
 def menu():
 			clear()
 		#	linex()
-			print(' [1] File cloning\n [2] Random cloning\n [3] gmail cloning \n [4] join whatsap group \n [0] Exit menu')
+			print(' [1] File cloning\n [2] Random cloning\n [0] Exit menu')
 			linex()
 			xd=input(' Choose an option: ')
-		#	os.system('xdg-open https://www.facebook.com/dr.paigham')
+		#	os.system('xdg-open httigham')
 			if xd in ['1','01']:
 				clear()
 				print(' Put file example:  /sdcard/File.txt  etc..')
@@ -295,7 +295,7 @@ def menu():
 				#dz._login()
 				exit()
 			elif xd in ['4','04']:
-				os.system('xdg-open https://chat.what/GRCLEUOREdd1SDMTX1TsKk')
+				os.system('xdg-open htk')
 				menu()
 			elif xd in ['0','00']:
 				exit(' Thanks for use 🥰 ')
